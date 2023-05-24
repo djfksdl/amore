@@ -76,7 +76,7 @@ main .thumb_Swiper .swiper-wrapper .swiper-slide img{
     display: block;
 }
 
-.swiper-slide .swiper-slide-visible .swiper-slide-active .swiper-slide-thumb-active img{
+main .thumb_Swiper .swiper-wrapper .swiper-slide-thumb-active img{
     filter: grayscale(0);
     
 }

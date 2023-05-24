@@ -7,10 +7,10 @@ var swiper = new Swiper(".thumb_Swiper", {
   });
   var swiper2 = new Swiper(".visual_Swiper", {
     speed: 5000,
-    // autoplay: {
-    //       delay: 5000,
-    //       disableOnInteraction: false
-    //     },
+    autoplay: {
+          delay: 5000,
+          disableOnInteraction: false
+        },
     loop: true,
     spaceBetween: 0,
     navigation: {
