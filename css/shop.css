@@ -1,0 +1,26 @@
+main{
+    width: 100%;
+    height: 100vh;
+}
+section{
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3) ),url(../images/shop_bg.jpg) no-repeat center ;
+    width: 100%;
+    height: 100%;
+}
+section .inner{
+    max-width: 1650px;
+    margin: 0 auto;
+    text-align: center;
+}
+section .inner h1{
+    font-size: 100px;
+    font-family: "recipe_kr";
+    padding-top: 7%;
+    margin-bottom: 3%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color:transparent;
+    background-image: url(../images/shop_txt.png);
+    background-size: 332% 300%;
+    background-repeat: no-repeat;
+}

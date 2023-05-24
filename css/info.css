@@ -1,0 +1,51 @@
+main{
+    width: 100%;
+    height: 100vh;
+}
+section{
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3) ),url(../images/info_bg.jpg) no-repeat 70% center;
+    width: 100%;
+    height: 100%;
+}
+section .inner{
+    max-width: 1650px;
+    margin: 0 auto;
+    text-align: center;
+}
+section .inner h1{
+    font-size: 100px;
+    font-family: "recipe_kr";
+    padding-top: 7%;
+    margin-bottom: 3%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color:transparent;
+    background-image: url(../images/info_bg.jpg);
+    background-size: 96% 230%;
+    background-repeat: no-repeat;
+
+}
+section .inner .info{
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 2%;
+    width: 50%;
+    margin: 0 auto;
+}
+section .inner .info table{
+    margin: 0 auto;
+    width: 100%;
+}
+section .inner .info table thead{}
+section .inner .info table thead tr{}
+section .inner .info table thead tr th{
+    padding: 1%;
+    border-bottom: 1px solid black;
+}
+section .inner .info table tbody{}
+section .inner .info table tbody tr{
+}
+section .inner .info table tbody tr td{
+    padding: 2%;
+    border-bottom: 1px solid #aaa;
+}

@@ -1,0 +1,113 @@
+main{
+    width: 100%;
+    height: 100%;
+}
+section{
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3) ), url(../images/res_bg.jpg) no-repeat center;
+    width: 100%;
+    height: 100%;
+}
+section .inner{
+    max-width: 1650px;
+    margin: 0 auto;
+    padding-bottom: 10%;
+}
+section .inner h1{
+    font-size: 100px;
+    font-family: "recipe_kr";
+    padding-top: 7%;
+    margin-bottom: 3%;
+    text-align: center;
+}
+section .inner .resv_box{
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 2%;
+    width: 40%;
+    margin: 0 auto;
+}
+section .inner .resv_box .resv_top{
+    display: flex;
+    gap: 5%;
+    /* justify-content: space-between; */
+    margin-bottom: 10%;
+}
+section .inner .resv_box .resv_top h2{
+    font-size: 16px;
+    margin-bottom: 5%;
+    font-weight: 700;
+}
+section .inner .resv_box .resv_top p{
+    font-size: 15px;
+    line-height: 1.5rem;
+}
+section .inner .resv_box .resv_top .date-sel{
+    border: 1px solid black;
+    padding: 5%;
+    white-space: nowrap;
+    width: 50%;
+}
+section .inner .resv_box .resv_top .resv-r{
+    width: 50%;
+}
+section .inner .resv_box .resv_top .user-info{
+    border: 1px solid black;
+    padding: 5%;
+    margin-bottom: 5%;
+}
+section .inner .resv_box .resv_top .user-info h2{}
+section .inner .resv_box .resv_top .user-info p{}
+section .inner .resv_box .resv_top .user-info .btn{
+    padding: 1% 10%;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+section .inner .resv_box .resv_top .numb{
+    border: 1px solid black;
+    padding: 5%;
+    margin-bottom: 5%;
+}
+section .inner .resv_box .resv_top .numb h2{}
+section .inner .resv_box .resv_top .numb p{}
+section .inner .resv_box .resv_top .time-sel{
+    border: 1px solid black;
+    padding: 5%;
+}
+section .inner .resv_box .resv_top .time-sel h2{}
+section .inner .resv_box .resv_top .time-sel .time_btn{
+    display: flex;
+    flex-direction: column;
+}
+section .inner .resv_box .resv_top .time-sel .time_btn .time-1{
+    display: flex;
+}
+section .inner .resv_box .resv_top .time-sel .time_btn .time-1 a{}
+section .inner .resv_box .resv_top .time-sel .time_btn .time-2{
+    display: flex;
+}
+section .inner .resv_box .resv_top .time-sel .time_btn .time-2 a{}
+section .inner .resv_box .resv_top .time-sel .time_btn .time-3{
+    display: flex;
+}
+section .inner .resv_box .resv_top .time-sel .time_btn .time-3 a{}
+section .inner .resv_box .resv_top .time-sel .time_btn a{
+    border: 1px solid black;
+    padding: 2%;
+    margin: 1%;
+}
+section .inner .resv_box .resv_bottom{}
+section .inner .resv_box .resv_bottom h2{}
+section .inner .resv_box .resv_bottom p{
+    font-size: 14px;
+    line-height: 1.5rem;
+}
+section .inner .resv_box .resv_bottom .info{}
+section .inner .resv_box .resv_bottom .info p{}
+section .inner .resv_box .resv_bottom .consent{}
+section .inner .resv_box .resv_bottom .consent h2{}
+section .inner .resv_box .resv_bottom .consent p{}
+section .inner .resv_box .next{
+    border: 1px solid black;
+    padding: 1% 3%;
+    border-radius: 5px;
+}

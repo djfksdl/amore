@@ -1,0 +1,168 @@
+@charset 'utf-8';
+@font-face {
+    font-family: 'gmarket';
+    src: url(../fonts/GmarketSansTTFBold.ttf);
+    font-weight: 800;
+}
+@font-face {
+    font-family: 'gmarket';
+    src: url(../fonts/GmarketSansTTFMedium.ttf);
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'gmarket';
+    src: url(../fonts/GmarketSansTTFLight.ttf);
+    font-weight: 300;
+}
+@font-face {
+    font-family: "nanmum_square";
+    src: url(../fonts/NanumSquare_acEB.ttf);
+    font-weight: 800;
+}
+@font-face {
+    font-family: "nanmum_square";
+    src: url(../fonts/NanumSquare_acB.ttf);
+    font-weight: 700;
+}
+@font-face {
+    font-family: "nanmum_square";
+    src: url(../fonts/NanumSquare_acR.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: "nanmum_square";
+    src: url(../fonts/NanumSquare_acL.ttf);
+    font-weight: 300;
+}
+@font-face {
+    font-family: "recipe_kr";
+    src: url(../fonts/Recipekorea\ 레코체\ FONT.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+html,body{
+    font-family: "nanmum_square";
+    font-weight: 400;
+    overflow-x: hidden;
+}
+ul,li{list-style: none;}
+
+a{ color: black; text-decoration: none;}
+
+.wrap{
+    width: 100%;
+}
+/* =============== header ================== */
+header{
+    font-family: 'gmarket';
+    width: 98%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background-color: rgba(0,0,0,.6);
+    padding: 1%;
+}
+header .inner{
+    max-width: 1650px;
+    margin: 0 auto;
+    display: flex;
+    gap: 25%;
+}
+header .inner > h1{
+    font-size: 24px;
+    font-weight: 300;
+}
+header .inner > h1>a{
+    color: #fff;
+}
+header .inner nav{}
+header .inner nav ul{
+    display: flex;
+    gap: 5%;
+}
+header .inner nav ul li{
+    padding-left: 20px;
+}
+header .inner nav ul li a{
+    font-size: 20px;
+    font-weight: 300;
+    color: #fff;
+}
+
+
+/* ============== footer ============== */
+footer{
+    padding: 3%;
+    color: #ccc;
+    background-color: #000;
+}
+footer .inner{
+    max-width: 1650px;
+}
+
+/* top-txt */
+footer .top-txt{
+    display: flex;
+    justify-content: space-between;
+}
+/* 왼쪽 부분 */
+footer .top-txt .t-l{
+    /* background-color: darkblue; */
+    width: 50%;
+}
+footer .top-txt .t-l p{
+    line-height: 1.3em;
+}
+/* 오른쪽 부분 */
+footer .top-txt .t-r{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    /* background-color: cadetblue; */
+}
+footer .top-txt .t-r .time{
+
+}
+footer .top-txt .t-r .time h2{
+    margin-bottom: 3%;
+}
+footer .top-txt .t-r .time p{
+    white-space: nowrap;
+}
+footer .top-txt .t-r .break{
+    /* padding-left: 5%; */
+}
+footer .top-txt .t-r .break h2{
+    margin-bottom: 3%;
+}
+footer .top-txt .t-r .break p{
+    white-space: nowrap;
+}
+
+/* bottom-txt */
+footer .bottom-txt{
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+/* 왼쪽 부분 */
+footer .bottom-txt .b-l{}
+footer .bottom-txt .b-l ul{
+    display: flex;
+}
+footer .bottom-txt .b-l ul li{
+    padding: 0 1%;
+}
+footer .bottom-txt .b-l ul li a{
+    color: #ccc;
+    white-space: nowrap;
+    /* margin-right: 1%; */
+    
+}
+/* 오른쪽 부분 */
+footer .bottom-txt .b-r{}
+footer .bottom-txt .b-r p{}

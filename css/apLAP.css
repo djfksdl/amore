@@ -1,0 +1,63 @@
+main{
+    width: 100%;
+    height: 100vh;
+}
+section{
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3) ),url(../images/ap_bg.jpg) no-repeat center ;
+    width: 100%;
+    height: 100%;
+}
+section::after{
+    /* content: '';
+    display: block;
+    background-color: rgba(0,0,0, .6);
+    width: 100%;
+    height: 100%; */
+}
+section .inner{
+    max-width: 1650px;
+    margin: 0 auto;
+    /* text-align: center; */
+
+}
+section .inner h1{
+    font-size: 100px;
+    font-family: "recipe_kr";
+    padding-top: 7%;
+    margin-bottom: 3%;
+    text-align: center;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color:transparent;
+    background-image: url(../images/ap_txt.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+section .inner .rest_inf{
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin: 0 auto;
+}
+section .inner .rest_inf h2{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10%;
+    display: inline-block;
+    text-align: center;
+}
+section .inner .rest_inf p{
+    font-weight: 400;
+    line-height: 1.4rem;
+    margin-bottom: 10%;
+}
+section .inner .rest_inf p:nth-child(3), section .inner .rest_inf p:nth-child(4){
+    margin-bottom: 0;
+    font-size: 15px;
+}
+section .inner .rest_inf p:nth-child(5){
+    font-size: 15px;
+}
